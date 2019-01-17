@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
     headless: false
   });
   const page=await browser.newPage();
-  await page.goto("http://www.piccadilyhotels.com/");
+  await page.goto("http://www.piccadilyhotels.com/"); //add your url
   await page.addScriptTag({ url: 'https://code.jquery.com/jquery-3.2.1.min.js' });
   
   
